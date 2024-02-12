@@ -6,11 +6,9 @@ import numpy as np
 import os
 import pandas as pd
 import pickle
-from pathlib import Path
 import plotly.graph_objects as go
 import pytz
 import requests
-import schedule
 from scipy import stats
 import telebot
 import warnings
