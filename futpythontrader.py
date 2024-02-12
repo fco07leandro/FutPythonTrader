@@ -9,12 +9,8 @@ import plotly.graph_objects as go
 import pytz
 import requests
 from scipy import stats
-import telebot
 import warnings
 warnings.filterwarnings('ignore')
-
-bot = telebot.TeleBot('6315876994:AAHWGy1p8y4yNvsAuo-xn12D-Guzncc6VNI')
-chat_channel = '-1002100450066'
 
 def ontem():
     from datetime import date, datetime, timedelta
