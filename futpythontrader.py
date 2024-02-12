@@ -1,4 +1,3 @@
-# python.exe -m pip install --upgrade pip
 from datetime import datetime, date, timedelta
 import math
 import matplotlib.pyplot as plt
