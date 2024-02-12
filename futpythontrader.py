@@ -1,5 +1,8 @@
 # python.exe -m pip install --upgrade pip
-# pip install betfairlightweight bs4 fake_useragent openpyxl pandas pycaret schedule scikit-learn scipy selenium streamlit streamlit_authenticator telebot tinydb tqdm webdriver_manager
+try:
+    pip install betfairlightweight bs4 fake_useragent openpyxl pandas pycaret schedule scikit-learn scipy selenium streamlit streamlit_authenticator telebot tinydb tqdm webdriver_manager
+except:
+    !pip install betfairlightweight bs4 fake_useragent openpyxl pandas pycaret schedule scikit-learn scipy selenium streamlit streamlit_authenticator telebot tinydb tqdm webdriver_manager
 
 import betfairlightweight
 from bs4 import BeautifulSoup
