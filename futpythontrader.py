@@ -1,11 +1,5 @@
 # python.exe -m pip install --upgrade pip
-!pip install betfairlightweight bs4 fake_useragent openpyxl pandas pycaret schedule scikit-learn scipy selenium streamlit streamlit_authenticator telebot tinydb tqdm webdriver_manager
-
-import betfairlightweight
-from bs4 import BeautifulSoup
 from datetime import datetime, date, timedelta
-import configparser
-from io import BytesIO
 import math
 import matplotlib.pyplot as plt
 import numpy as np
@@ -15,11 +9,8 @@ import pickle
 from pathlib import Path
 import plotly.graph_objects as go
 import pytz
-from pycaret.classification import *
 import requests
 import schedule
-import streamlit as st
-import streamlit_authenticator as stauth
 from scipy import stats
 import telebot
 import warnings
