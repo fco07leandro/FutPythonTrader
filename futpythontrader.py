@@ -352,7 +352,7 @@ def TR_Match_Odds(base, jogos_do_dia, lista):
 
         lista.append(teoria_dos_retornos)
     
-ligas = ['ARGENTINA - LIGA PROFESIONAL',
+leagues = ['ARGENTINA - LIGA PROFESIONAL',
 'ARGENTINA - COPA DE LA LIGA PROFESIONAL',
 'ARMENIA - PREMIER LEAGUE',
 'AUSTRALIA - A-LEAGUE',
